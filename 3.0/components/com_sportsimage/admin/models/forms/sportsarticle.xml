@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+    <fieldset>
+        <field name="idarticle" 
+            type="text"
+            default="0"
+            label="JGLOBAL_FIELD_ID_LABEL"
+            readonly="true"
+            class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" />
+
+        <field name="idsource"
+            type="list"
+            label="COM_SPORTSARTICLE_FIELD_IDSOURCE_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_IDSOURCE_DESC">
+	</field>
+
+        <field name="nryear" 
+	    type="text"
+	    class="inputbox"
+	    size="40"
+	    label="COM_SPORTSARTICLE_FIELD_NRYEAR_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_NRYEAR_DESC"
+	    required="true" />
+
+        <field name="dtpublished"
+            type="calendar"
+            class="inputbox"
+            size="22"
+            format="%d-%m-%Y"
+            filter="user_utc"
+            label="COM_SPORTSARTICLE_FIELD_DTPUBLISHED_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_DTPUBLISHED_DESC"
+            />
+        
+        <field name="nmauthor"
+            type="text"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMAUTHOR_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_NMAUTHOR_DESC"
+            />
+        
+        <field name="nmtitle1"
+            type="text"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMTITLE1_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_NMTITLE1_DESC"
+            required="true" />
+        
+        <field name="nmtitle2"
+            type="text"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMTITLE2_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_NMTITLE2_DESC"
+	/>
+        
+        <field name="nmtitle3"
+            type="text"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMTITLE3_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_NMTITLE3_DESC"
+	/>
+
+        <field name="cdtype"
+            type="list"
+            label="COM_SPORTSARTICLE_FIELD_CDTYPE_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_CDTYPE_DESC">
+	    <option value="">JGLOBAL_USE_GLOBAL</option>
+	    <option value="right">COM_SPORTSARTICLE_BASEBALL</option>
+	    <option value="left">COM_SPORTSARTICLE_SOFTBALL</option>
+	</field>
+
+        <field name="ftarticle"
+            type="textarea"
+            class="inputbox"
+            rows="10"
+            cols="20"
+            label="COM_SPORTSARTICLE_FIELD_FTARTICLE_TITLE"
+	    description="COM_SPORTSARTICLE_FIELD_FTARTICLE_DESC"
+            required="true" />
+        
+        <field name="dtlastmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_DTLASTMUT_TITLE"
+	    description="COM_SPORTS_DTLASTMUT_DESC"
+	/>
+        <field name="nmlastmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMLASTMUT_TITLE"
+	    description="COM_SPORTS_NMLASTMUT_DESC"
+	/>
+        <field name="dtprevmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_DTPREVMUT_TITLE"
+	    description="COM_SPORTS_DTPREVMUT_DESC"
+	/>
+        
+    </fieldset>
+</form>

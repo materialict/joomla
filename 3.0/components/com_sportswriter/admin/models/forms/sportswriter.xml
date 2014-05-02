@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+    <fieldset name="fields">
+        <field name="idwriter" 
+            type="text"
+            default="0"
+            label="JGLOBAL_FIELD_ID_LABEL"
+            readonly="true"
+            class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" />
+
+        <field name="nmsearch" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_NMSEARCH_TITLE"
+	        description="COM_SPORTSWRITER_FIELD_NMSEARCH_DESC"
+    	/>
+        <field name="nmwriter" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_NMWRITER_TITLE"
+	       description="COM_SPORTSWRITER_FIELD_NMWRITER_DESC"
+        />
+        <field name="nmcontact" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_NMCONTACT_TITLE"
+    	    description="COM_SPORTSWRITER_FIELD_NMCONTACT_DESC"
+    	/>
+        <field name="nmaddress" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_NMADDRESS_TITLE"
+            description="COM_SPORTSWRITER_FIELD_NMADDRESS_DESC"
+        />
+        <field name="nmpostal" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_NMPOSTAL_TITLE"
+            description="COM_SPORTSWRITER_FIELD_NMPOSTAL_DESC"
+        />
+        <field name="nmcity" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_NMCITY_TITLE"
+            description="COM_SPORTSWRITER_FIELD_NMCITY_DESC"
+        />
+        <field name="ftphone" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_FTPHONE_TITLE"
+    	    description="COM_SPORTSWRITER_FIELD_FTPHONE_DESC"
+        />
+        <field name="ftcellphone" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_FTCELLPHONE_TITLE"
+    	    description="COM_SPORTSWRITER_FIELD_FTCELLPHONE_DESC"
+        />
+        <field name="ftemail" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_FTEMAIL_TITLE"
+            description="COM_SPORTSWRITER_FIELD_FTEMAIL_DESC"
+        />
+        <field name="ftwebsite" 
+            type="text"
+            label="COM_SPORTSWRITER_FIELD_FTWEBSITE_TITLE"
+            description="COM_SPORTSWRITER_FIELD_FTWEBSITE_DESC"
+        />
+        <field name="cdpermission" 
+            type="list"
+            default="N"
+            size="4"
+            label="COM_SPORTSWRITER_FIELD_CDPERMISSION_TITLE"
+	       description="COM_SPORTSWRITER_FIELD_CDPERMISSION_DESC">
+    	    <option value="">JGLOBAL_USE_GLOBAL</option>
+	       <option value="right">COM_SPORTS_YES</option>
+	        <option value="left">COM_SPORTS_NO</option>
+        </field>
+        <field name="dtlastmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_DTLASTMUT_TITLE"
+    	    description="COM_SPORTS_DTLASTMUT_DESC"
+    	/>
+        <field name="nmlastmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMLASTMUT_TITLE"
+    	    description="COM_SPORTS_NMLASTMUT_DESC"
+    	/>
+        <field name="dtprevmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_DTPREVMUT_TITLE"
+    	    description="COM_SPORTS_DTPREVMUT_DESC"
+    	/>
+        
+    </fieldset>
+</form>

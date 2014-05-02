@@ -1,0 +1,94 @@
+/* main div */
+.myarticle{
+	padding-bottom: 20px;
+	float: left;
+	padding-right: 20px;
+}
+
+/* sportsarticles stuff */
+.thumbnail{
+	padding:5px;
+}
+.thumbnail_left{
+	float:left;
+}
+.thumbnail_right{
+	float:right;
+}
+.sportsarticle_nmtitle1_small{
+	font-weight:bold;
+}
+.sportsarticle_idwriter_small{
+/*	float:left;
+*/
+}
+.sportsarticle_nmauthor_small{
+	float:right;
+}
+.sportsarticle_dtpublished_small{
+	float:left;
+}
+.sportsarticle_ftarticle_small{
+	clear:right
+}
+
+
+/* sportsarticle stuff */
+.sportsarticle_nmtitle1{
+	text-align:center;
+	font:"Times New Roman", Times, serif;
+	font-size: 24pt;
+	clear:both;	
+	margin-bottom:10px;	
+}
+
+.sportsarticle_nmtitle2{
+	text-align:center;
+	font:"Times New Roman", Times, serif;
+	font-size: 18pt;	
+	margin-bottom:10px;
+}
+
+.sportsarticle_nmtitle3{
+	text-align:center;
+	font:"Times New Roman", Times, serif;
+	font-size: 13pt;
+	margin-bottom:10px;
+}
+
+.sportsarticle_ftarticle{
+	text-align:justify;
+	font:"Times New Roman", Times, serif;
+}
+
+.sportsarticle_idsource{
+	text-align:center;	
+}
+.sportsarticle_nmauthor{
+	float:left;
+	text-align:left;
+}
+.sportsarticle_dtpublished{
+	float:right;
+	text-align:right;
+}
+
+/* sportsimage stuff */
+.sportsimage_ftcaption{
+	/* this doesnot seem to work. It appears the font soze of parent div objects are intherited. */
+	font-size:6pt;
+}
+.sportsarticleimage_right{
+	background-color:#C0C0C0;
+/*	width:400px;*/
+	padding:3px;
+	margin-left:10px;
+	float:right;
+}
+.sportsarticleimage_left{
+	background-color:#C0C0C0;
+/*	width:400px;*/
+	padding:3px;
+	margin-right:10px;
+	float:left;
+}

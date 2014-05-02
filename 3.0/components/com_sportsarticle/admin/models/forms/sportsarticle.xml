@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+    <fieldset addfieldpath="/administrator/components/com_sportsarticle/models/fields">
+        <field name="idarticle" 
+            type="text"
+            default="0"
+            label="JGLOBAL_FIELD_ID_LABEL"
+            readonly="true"
+            class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" />
+
+
+        <field
+            name="idsource"
+            type="sql"
+            default="10"
+            label="COM_SPORTSARTICLE_FIELD_IDSOURCE_LABEL"
+            description="COM_SPORTSARTICLE_FIELD_IDSOURCE_DESC"
+            query="SELECT idwriter as value, nmwriter as idsource FROM #__sportswriter" />
+
+        <field name="nryear" 
+	    type="text"
+	    class="inputbox"
+	    size="40"
+	    label="COM_SPORTSARTICLE_FIELD_NRYEAR_LABEL"
+	    description="COM_SPORTSARTICLE_FIELD_NRYEAR_DESC"
+	    required="true" />
+
+        <field name="dtpublished"
+            type="calendar"
+            class="inputbox"
+            size="22"
+            format="%d-%m-%Y"
+            filter="user_utc"
+            label="COM_SPORTSARTICLE_FIELD_DTPUBLISHED_LABEL"
+	    description="COM_SPORTSARTICLE_FIELD_DTPUBLISHED_DESC"
+            />
+        
+        <field name="nmauthor"
+            type="text"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMAUTHOR_LABEL"
+	    description="COM_SPORTSARTICLE_FIELD_NMAUTHOR_DESC"
+            />
+        
+        <field name="nmtitle1"
+            type="text"
+            class="inputbox"
+            size="100"
+            label="COM_SPORTSARTICLE_FIELD_NMTITLE1_LABEL"
+	    description="COM_SPORTSARTICLE_FIELD_NMTITLE1_DESC"
+            required="true" />
+        
+        <field name="nmtitle2"
+            type="text"
+            class="inputbox"
+            size="100"
+            label="COM_SPORTSARTICLE_FIELD_NMTITLE2_LABEL"
+	    description="COM_SPORTSARTICLE_FIELD_NMTITLE2_DESC"
+	/>
+        
+        <field name="nmtitle3"
+            type="text"
+            class="inputbox"
+            size="100"
+            label="COM_SPORTSARTICLE_FIELD_NMTITLE3_LABEL"
+	    description="COM_SPORTSARTICLE_FIELD_NMTITLE3_DESC"
+	/>
+
+        <field name="cdtype"
+            type="text"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_CDTYPE_LABEL"
+	    description="COM_SPORTSARTICLE_FIELD_CDTYPE_DESC"
+	/>
+
+        <field name="ftarticle"
+            type="textarea"
+            class="inputbox"
+            rows="10"
+            cols="300"
+            label="COM_SPORTSARTICLE_FIELD_FTARTICLE_LABEL"
+	    description="COM_SPORTSARTICLE_FIELD_FTARTICLE_DESC"
+            required="true" />
+        
+        <field name="dtlastmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_DTLASTMUT_LABEL"
+	    description="COM_SPORTS_DTLASTMUT_DESC"
+	/>
+        <field name="nmlastmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMLASTMUT_LABEL"
+	    description="COM_SPORTS_NMLASTMUT_DESC"
+	/>
+        <field name="dtprevmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_DTPREVMUT_LABEL"
+	    description="COM_SPORTS_DTPREVMUT_DESC"
+	/>
+        
+    </fieldset>
+</form>

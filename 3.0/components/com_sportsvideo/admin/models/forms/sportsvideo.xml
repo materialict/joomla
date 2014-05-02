@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="fields">
+        <field name="idvideo" type="text" default="0" label="JGLOBAL_FIELD_ID_LABEL"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_IDVIDEO_DESC"/>
+        <field name="nmvideo" type="text" class="inputbox"
+            size="40" label="JFIELD_NMTITLE_LABEL"
+            description="COM_FOLIO_FIELD_NMVIDEO_DESC" required="true" />
+        <field name="nmurl" type="text" class="inputbox"
+            size="40" label="JFIELD_NMURL_LABEL"
+            description="COM_FOLIO_FIELD_NMURL_DESC" />
+        <!-- directory opens the folder in the images folder --> 
+        <field name="nmphoto" type="media" directory="com_sportsvideo"
+            hide_none="1" label="COM_SPORTSVIDEO_FIELD_NMPHOTO_LABEL"
+            size="40"
+            description="COM_SPORTSVIDEO_FIELD_NMPHOTO_DESC"
+        />        
+        
+        <!-- technical fields --> 
+        <field
+            name="catid"
+            type="category"
+            extension="com_sportsvideo"
+            class="inputbox"
+            default=""
+            label="COM_SPORTSVIDEO_FIELD_CATID_LABEL"
+            description="COM_SPORTSVIDEO_FIELD_CATID_DESC"
+            >
+            <option value="0">JOPTION_SELECT_CATEGORY</option>
+        </field>
+        <field name="state" type="list"
+            label="JSTATUS" description="JFIELD_PUBLISHED_DESC"
+            class="inputbox small" size="1" default="1" >
+            <option value="1">JPUBLISHED</option>
+            <option value="0">JUNPUBLISHED</option>
+            <option value="2">JARCHIVED</option>
+            <option value="-2">JTRASHED</option>
+        </field>
+        <field name="image" type="media" directory=""
+            hide_none="1" label="COM_SPORTSVIDEO_FIELD_IMAGE_LABEL"
+            size="40"
+            description="COM_SPORTSVIDEO_FIELD_IMAGE_DESC"
+        />        
+    </fieldset>
+</form>

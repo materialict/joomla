@@ -1,0 +1,13 @@
+.sportsvideo_nmvideo{
+	color: #555555;
+	font-family: 'Titillium Maps',Arial;
+	font-size: 14pt;
+}
+.mysportsvideo{
+	display:inline-block;
+	padding-right:40px;
+}
+.sportsvideo_element{
+width: 150px;
+padding-top: 2px;
+}

@@ -1,0 +1,1 @@
+We use the prefix HB_ in the modules to distinguish from the Joomla specific stuff. Joomla for instance carries an article module. 

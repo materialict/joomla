@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<form>
+    <fieldset name="fields">
+
+        <field name="idimage" 
+            type="text"
+            default="0"
+            label="JGLOBAL_FIELD_ID_LABEL"
+            readonly="true"
+            class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" />
+        <field name="idsource" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_IDSOURCE_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_IDSOURCE_DESC" 
+        />
+        <field name="nmphotographer" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_NMPHOTOGRAPHER_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_NMPHOTOGRAPHER_DESC"
+        />
+    	<field name="nrorder"
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_NRORDER_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_NRORDER_DESC"
+    	/>
+    	<field name="nryear" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_NRYEAR_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_NRYEAR_DESC"
+    	/>
+    	<field name="dtpublished" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_DTPUBLISHED_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_DTPUBLISHED_DESC"
+    	/>
+    	<field name="cdoriginal" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_CDORIGINAL_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_CDORIGINAL_DESC"
+    	/>
+    	<field name="cdmugshot" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_CDMUGSHOT_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_CDMUGSHOT_DESC"
+    	/>
+    	<field name="cdaction" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_CDACTION_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_CDACTION_DESC"
+    	/>
+    	<field name="cdteamphoto" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_CDTEAMPHOTO_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_CDTEAMPHOTO_DESC"
+    	/>
+    	<field name="ftpictured" 
+		    type="text"
+		    class="inputbox"
+		    size="40"
+		    label="COM_SPORTSIMAGE_FIELD_FTPICTURED_TITLE"
+		    description="COM_SPORTSIMAGE_FIELD_FTPICTURED_DESC"
+    	/>
+    	<field name="ftcaption" 
+		    type="text"
+		    class="inputbox"
+	    	size="40"
+	    	label="COM_SPORTSIMAGE_FIELD_FTCAPTION_TITLE"
+	    	description="COM_SPORTSIMAGE_FIELD_FTCAPTION_DESC"
+    	/>
+    	<field name="dtlastmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_DTLASTMUT_TITLE"
+    	    description="COM_SPORTS_DTLASTMUT_DESC"
+    	/>
+        <field name="nmlastmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_NMLASTMUT_TITLE"
+    	    description="COM_SPORTS_NMLASTMUT_DESC"
+    	/>
+        <field name="dtprevmut"
+            type="hidden"
+            class="inputbox"
+            size="40"
+            label="COM_SPORTSARTICLE_FIELD_DTPREVMUT_TITLE"
+    	    description="COM_SPORTS_DTPREVMUT_DESC"
+    	/>
+    </fieldset>
+</form>
